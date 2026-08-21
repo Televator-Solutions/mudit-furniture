@@ -159,23 +159,27 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-sand-400">
-          <p>© 2026 Mudit Furnitures. All rights reserved.</p>
-          <div class="footer-bottom">
-  <p>© 2026 Mudit Furnitures. All Rights Reserved.</p>
+  <p>© 2026 Mudit Furnitures. All rights reserved.</p>
+  
   <p>
-    Developed by 
-    <a href="https://televatorsolutions.com" target="_blank" rel="noopener noreferrer">
+    Developed by{' '}
+    <a 
+      href="https://televatorsolutions.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-amber-400 hover:text-amber-300 hover:underline font-medium"
+    >
       Televator Solutions
     </a>
   </p>
+
+  <div className="flex items-center gap-6">
+    <span className="flex items-center gap-1.5">
+      <ShieldCheck className="w-4 h-4 text-emerald-400" />
+      <span>Verified Store in Agra, Uttar Pradesh</span>
+    </span>
+  </div>
 </div>
-          <div className="flex items-center gap-6">
-            <span className="flex items-center gap-1.5">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>Verified Store in Agra, Uttar Pradesh</span>
-            </span>
-          </div>
-        </div>
       </Container>
     </footer>
   );
