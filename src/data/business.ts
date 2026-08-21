@@ -1,0 +1,42 @@
+export const BUSINESS_INFO = {
+  name: 'Mudit Furnitures',
+  hindiName: 'मुदित फर्नीचर्स',
+  tagline: 'Quality Furniture for Home & Office in Agra',
+  headline: 'Furniture That Makes Your Space Feel Like Home.',
+  subheadline: 'Quality furniture for your home and office, crafted with style, comfort and value in mind.',
+  rating: 4.6,
+  totalReviews: 93,
+  address: {
+    street: '13/A, Gwalior Rd, Naulakha, Agra Cantt, Idgah Colony',
+    city: 'Agra',
+    state: 'Uttar Pradesh',
+    pincode: '282001',
+    full: '13/A, Gwalior Rd, Naulakha, Agra Cantt, Idgah Colony, Agra, Uttar Pradesh 282001',
+    landmark: 'Near Naulakha & Agra Cantt',
+  },
+  contact: {
+    phoneRaw: '09639753121',
+    phoneDisplay: '+91 96397 53121',
+    whatsappRaw: '919639753121',
+    website: 'muditfurnitures.in',
+  },
+  timings: {
+    openDays: 'Open All 7 Days',
+    hours: '10:30 AM – 8:30 PM',
+    note: 'Visit our showroom or call for private consultation',
+  },
+  services: [
+    { title: 'In-Store Pickup', desc: 'Inspect items in person and pick up directly from our Agra showroom.' },
+    { title: 'Safe Delivery', desc: 'Timely and secure doorstep delivery across Agra & surrounding areas.' },
+    { title: 'Custom Manufacturing', desc: 'Tailored dimensions, materials, finishes, and configurations.' },
+    { title: 'Turnkey Office Setup', desc: 'Ergonomic workstations, executive chairs, tables & storage.' },
+  ],
+  trustHighlights: [
+    { icon: 'Award', title: 'Quality Furniture', desc: 'Crafted with premium woods, durable fittings & fine finishes.' },
+    { icon: 'Tag', title: 'Reasonable Pricing', desc: 'Direct showroom value without inflated retail markups.' },
+    { icon: 'Grid', title: 'Wide Product Range', desc: 'From luxury living sets to rugged steel almirahs & beds.' },
+    { icon: 'Sliders', title: 'Customized Furniture', desc: 'Bespoke dimensions and designs built to your room layout.' },
+    { icon: 'HeartHandshake', title: 'Good Service', desc: 'Warm, attentive staff helping you choose the right fit.' },
+    { icon: 'Truck', title: 'On-Time Delivery', desc: 'Punctual transit and careful handling for peace of mind.' },
+  ],
+};
