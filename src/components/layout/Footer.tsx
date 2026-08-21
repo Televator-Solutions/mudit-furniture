@@ -161,10 +161,15 @@ export const Footer: React.FC = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-sand-400">
   <p>© 2026 Mudit Furnitures. All rights reserved.</p>
   
-  <p>
+  <p className="text-center">
     Developed by{' '}
-    <a href="https://televatorsolutions.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 hover:underline font-medium" >
-   Televator Solutions
+    <a 
+      href="https://televatorsolutions.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-amber-400 hover:text-amber-300 hover:underline font-medium transition-colors"
+    >
+      Televator Solutions
     </a>
   </p>
 
