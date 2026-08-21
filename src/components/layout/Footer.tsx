@@ -169,7 +169,7 @@ export const Footer: React.FC = () => {
       rel="noopener noreferrer" 
       className="text-amber-400 hover:text-amber-300 hover:underline font-medium transition-colors"
     >
-      Televator Solutions
+      Televator Solutions Private Limited
     </a>
   </p>
 
