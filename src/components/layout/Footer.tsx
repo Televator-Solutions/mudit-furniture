@@ -163,13 +163,8 @@ export const Footer: React.FC = () => {
   
   <p>
     Developed by{' '}
-    <a 
-      href="https://televatorsolutions.com" 
-      target="_blank" 
-      rel="noopener noreferrer" 
-      className="text-amber-400 hover:text-amber-300 hover:underline font-medium"
-    >
-      Televator Solutions
+    <a href="https://televatorsolutions.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300 hover:underline font-medium" >
+   Televator Solutions
     </a>
   </p>
 
